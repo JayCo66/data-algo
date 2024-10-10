@@ -5,7 +5,7 @@
 
 typedef struct node{
 	char data;
-	struct node*next;
+	struct node *next;
 }node;
 
 	node*Top=NULL,*newnode;
