@@ -22,11 +22,11 @@ int main()
         size++;
     }
 
-    for(int i=K-1;i>=0;i--){
+    for(int i=K-1;i>=Front;i--){
         printf("%d ",Q[i]);
     }
 
-    for(int i=K;i<N;i++){
+    for(int i=K;i<=Rear;i++){
         printf("%d ",Q[i]);
     }
 }
